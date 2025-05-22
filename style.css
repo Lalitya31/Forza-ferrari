@@ -1,42 +1,30 @@
 body {
-  background-color: #e10600;
-  font-family: Arial, sans-serif;
-  color: white;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
 }
 
 .container {
-  padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.logo {
-  width: 150px;
-  margin-top: 20px;
+.text {
+    width: 60%;
 }
 
-.driver-list {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 30px;
+.image {
+    width: 35%;
+    text-align: right;
 }
 
-.driver-list li {
-  margin: 10px 0;
-  font-size: 20px;
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.driver-list a {
-  color: white;
-  text-decoration: none;
-  border: 2px solid white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-}
-
-.driver-list a:hover {
-  background-color: white;
-  color: #e10600;
-}
